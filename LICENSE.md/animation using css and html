@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+body{
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-image: url(../Downloads/ba.jpg);
+}
+.circle{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 720px;
+height: 720px;
+
+animation: animate 25s linear infinite;
+}
+@keyframes animate
+{
+ 0%
+ {
+   
+    transform: translate(-50%,-50%)rotate(0deg)
+  }
+  
+ 100%
+ {
+   
+    transform: translate(-50%,-50%)rotate(+360deg)
+  }
+  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="circle  ">
+
+<img src ="C:\Users\Hp\Downloads/globe.jpg">
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
